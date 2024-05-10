@@ -37,10 +37,7 @@ def page_mildew_detector_body():
 
 
 def make_live_predict(images_buffer):
-    """
-    Function uploads images, makes the live prediction from the ML model
-    """
-
+  
     if images_buffer is not None:
         df_report = pd.DataFrame([])
         for image in images_buffer:
