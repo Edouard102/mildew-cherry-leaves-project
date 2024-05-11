@@ -58,22 +58,107 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Hypothesis and how to validate?
 
-- List here your project hypothesis(es) and how you envision validating it (them).
+- Cherry tree leaves affected by powdery mildew present a distinct visual appearance compared to healthy leaves, characterized by a whitish or grayish powdery layer.
+
+- The clear visual contrast between healthy and powdery mildew-infected leaves allows for training a machine learning model to automatically detect the disease. By analyzing leaf features like shape, texture, and color, the model can accurately distinguish between the two conditions. This approach saves time and labor compared to manual detection methods.
+
+- The model should distinguish between healthy and powdery mildew-infected cherry leaves with high accuracy, due to its ability to generalize patterns and make precise predictions based on general characteristics.
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
 
-- List your business requirements and a rationale to map them to the Data Visualisations and ML tasks.
+### Business Requierement 1
+
+- Data Visualization:
+
+    * Display the average image and variability for healthy and powdery mildew-infected leaves, along with the difference between them.
+    * Create an image montage for each leaf class, enabling visual comparison and recognition of specific patterns within each class.
+    * Meet the client's requirements by providing a clear and concise visualization of differences between healthy and powdery mildew-infected leaves, facilitating the detection of different leaves.
+
+### Business Requirement 2
+
+- Classification of Images:
+
+    * Develop a precise prediction tool based on a binary classifier to determine the health of cherry tree leaves in relation to powdery mildew.
+    * Incorporate the ability to generate detailed reports on prediction results, facilitating analysis and decision-making for the client.
+    * Reduce the need for manual detection of the infection, saving time, human resources, and capital for the company, while increasing revenue through increased productivity and product availability in the market.
 
 ## ML Business Case
 
-- In the previous bullet, you potentially visualised an ML task to answer a business requirement. You should frame the business case using the method we covered in the course.
+- Automated Detection of Powdery Mildew on Cherry Leaves
 
-## Dashboard Design
+    * Business Objective:
 
-- List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other items, that your dashboard library supports.
-- Finally, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project, you were confident you would use a given plot to display an insight, but later, you chose another plot type).
+    To develop an automated diagnostic tool based on machine learning for rapidly and accurately detecting powdery mildew on cherry leaves. This aims to reduce the time and resources required for manual detection while enhancing tree health and increasing business productivity.
+    
+    * Proposed Solution:
 
-## Unfixed Bugs
+    Create a machine learning image classification model that distinguishes between healthy cherry leaves and leaves infected with powdery mildew. By utilizing advanced machine learning techniques, this model will provide precise predictions, enabling rapid detection of powdery mildew.
+
+    * Success Metric:
+
+    Achieve a prediction accuracy of at least 97% on a test dataset, ensuring the reliability and effectiveness of the model for the client.
+
+    * Benefits for the Client:
+
+        - Significant reduction in the time and resources needed for manual powdery mildew detection.
+        - Early prevention of powdery mildew spread, maintaining tree health and optimizing crop yield.
+        - Improvement in the quality and quantity of cherry production through rapid and accurate powdery mildew detection.
+    
+    * Implementation Plan:
+
+        1. Data Collection and Preparation: Gather a dataset of images of healthy and powdery mildew cherry leaves.
+        2. Model Development: Design and train an image classification machine learning model.
+        3. Model Evaluation: Assess model performance on an independent test dataset to ensure reliability.
+        4. Integration into an Application: Develop an application allowing employees to upload images and obtain real-time detection results.
+
+## Project Methodologies
+
+ This project was developed using agile methodologies. Used in conjunction with GitHub Issues and Projects, allow us to track project progress in real-time, prioritise features for development.
+
+The CRISP-DM model provides a structured approach to managing data mining projects, guiding us during the key phases such as understanding business needs, exploring and preparing data, developing and evaluating models, and finally deploying results in a commercial context, ensuring a robust and reliable end-to-end process.
+
+## Dashboard Design (Streamlit App User Interface)
+
+### Page 1: Quick Project Summary
+
+Quick project summary
+context
+Problem Statement
+Business Requirements
+This project has 2 business requirements:
+Project Dataset
+
+
+### Page 2: Leaves Visualizer
+
+- It will answer business requirement 1
+    * Checkbox 1 - Difference between average and variability image
+    * Checkbox 2 - Difference between average healthy and average not healthy leaves
+    * Checkbox 3 - Image Montage
+
+### Page 3: Mildew Detector
+
+- It will answer business requirement 2 
+    * information. - "The client is interested in predicting whehter a cherry leaf is healthy or is infected with powdery mildew."
+    * Link to download a set of healthy and infected leaves for live prediction.
+    * User Interface with a file uploader widget. The user should upload leaves images. It will display the image and a prediction statement, indicating if the leaf is healthy or not.
+    * Table with image name and prediction results.
+    * Download button to download table.
+
+### Page 4: Hypothesis 
+
+- In the first section of this page, the user can view the project hypotheses, while in the second section, they can find the validation. This page is purely text-based, so there are no user actions to perform.
+
+### Page 5: ML Performance Metrics
+
+- Label Frequencies for Train, Validation and Test Sets
+- Model History - Accuracy and Losses
+- Model evaluation result
+
+## Bugs
+ 
+ Unfi\xed Bugs
+
 
 - You will need to mention unfixed bugs and why they were unfixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable for consideration, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
