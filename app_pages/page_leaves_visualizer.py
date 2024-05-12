@@ -11,7 +11,7 @@ import random
 
 def page_leaves_visualizer_body():
     
-    st.write("### Visualisation of Cherry Leaves")
+    st.write("## **Visualisation of Cherry Leaves**")
 
     st.info(
         f"The client wants to have a study that visually "

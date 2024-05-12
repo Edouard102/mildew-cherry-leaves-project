@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 def page_summary_body():
 
-    st.write("### Quick Project Summary")
+    st.write("## **Quick Project Summary**")
     
     st.header("Context ")
     st.info(
@@ -48,7 +48,6 @@ def page_summary_body():
         f"* The cherry plantation crop of Farmy & Foods is facing a challenge: "
         f"their cherry plantations are affected by powdery mildew.\n"
         f"* The current manual verification process takes about 30 minutes per tree. "
-        f"The current manual verification process takes about 30 minutes per tree. "
         f"An employee collects samples of tree leaves and "
         f"visually checks for the presence of powdery mildew, applying a specific "
         f"compound to kill the fungus if detected, adding an extra minute to each inspected tree.\n"

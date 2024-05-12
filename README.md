@@ -121,13 +121,25 @@ The CRISP-DM model provides a structured approach to managing data mining projec
 
 ### Page 1: Quick Project Summary
 
-Quick project summary
-context
-Problem Statement
-Business Requirements
-This project has 2 business requirements:
-Project Dataset
+* This will be the first page that loads upon using the application. The user will be able to find information about the project context, the problem statement, the business requirements, and the data source, as well as a link to the README file."
 
+    - context
+
+    This section will provide us with general information about cherry trees and the powdery mildew infection. There will also be a link to go to the powdery mildew page and another one to the cherry tree page.
+
+    - Problem Statement
+    
+    This section outlines the problem.
+
+    - Business Requirements
+
+    This section outlines the two business requirements.
+
+    - Project Dataset
+
+    this section show the dataset and you have a link to it.
+
+    Link to additional information (Readme file)
 
 ### Page 2: Leaves Visualizer
 
@@ -179,7 +191,66 @@ Project Dataset
 
 ## Main Data Analysis and Machine Learning Libraries
 
-- Here, you should list the libraries used in the project and provide an example(s) of how you used these libraries.
+- Pandas 
+
+Helped to manipulate data to put them into DataFrames.
+
+- Numpy
+
+Provided me with tools to efficiently perform numerical computations using arrays.
+
+- Matplotlib 
+
+ Assisted me in plotting data visualizations.
+
+- Seaborn 
+
+Helped me to create informative statistical visualizations.
+
+- Plotly 
+
+Gave me tools to create interactive and dynamic visualizations.
+
+- Tensorflow 
+
+Provided me with a flexible infrastructure for building, training, and deploying machine learning models.
+
+- Keras 
+
+Allowed me to create and train machine learning models.
+
+- Joblib 
+
+Used for loading and saving files generated in the project.
+
+- Shutil
+
+Used to perform operations on files and directories.
+
+
+## Technologies Used
+ 
+### Languages
+
+- Python
+
+### Development and Hosting
+
+- Jupyter Notebooks 
+
+The main development source for running and executing the ML pipelines.
+
+- Gitpod
+
+Used as the workspace and development environment for this project.
+
+- Streamlit
+
+UI host for the dashboard.
+
+- Heroku
+
+ Used to deploy the project.
 
 ## Credits
 
@@ -188,15 +259,25 @@ Project Dataset
 
 ### Content
 
-- The text for the Home page was taken from Wikipedia Article A.
-- Instructions on how to implement form validation on the Sign-Up page were taken from [Specific YouTube Tutorial](https://www.youtube.com/).
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+- Information  for the 'Context' section on the Project Summary page came from Wikipedia,
+    * [Powdery Mildew Diease](https://en.wikipedia.org/wiki/Powdery_mildew)
+    * [Cherry](https://en.wikipedia.org/wiki/Cherry)
+
+- Code Institute 
+    * The Code and design for this project was largely taken from this Malaria Detector walkthrough project. 
+    * Mildew Detection was utilised as the base template for this project.
+    * Code Institute Streamlit Lessons
 
 ### Media
 
-- The photos used on the home and sign-up page are from This Open-Source site.
-- The images used for the gallery page were taken from this other open-source site.
+- The UI for the app has been built using [Streamlit](https://streamlit.io/).
+- The images used for the dataset were taken from [Kaggle](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves).
 
-## Acknowledgements (optional)
+## Acknowledgements
 
-- Thank the people who provided support throughout this project.
+
+- Special thanks to all Code Institute's team ("Teacher", Lecturers and Tutors) that are making me more knowledgeable and are making this happen.
+
+- Huge thank you to the Slack community, its all the members and all the leads and tutors for their help and support.
+
+- Thanks to my mentor Rohit Sharma for guiding me through this project.

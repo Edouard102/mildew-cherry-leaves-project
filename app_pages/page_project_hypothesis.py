@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 def page_project_hypothesis_body():
 
-    st.header("Project Hypothesis and Validation")
+    st.write("## **Project Hypothesis and Validation**")
 
     st.subheader(
         f"Hypotheses for this project:")
