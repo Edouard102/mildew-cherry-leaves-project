@@ -127,9 +127,13 @@ The CRISP-DM model provides a structured approach to managing data mining projec
 
     This section will provide us with general information about cherry trees and the powdery mildew infection. There will also be a link to go to the powdery mildew page and another one to the cherry tree page.
 
+    ![contex](assets/images/context.png)    
+
     - Problem Statement
     
     This section outlines the problem.
+
+    ![probleme_statement](assets/images/probleme_statement.png)
 
     - Business Requirements
 
@@ -141,12 +145,26 @@ The CRISP-DM model provides a structured approach to managing data mining projec
 
     Link to additional information (Readme file)
 
+    ![business_requirement](assets/images/business_requirement.png)
+
 ### Page 2: Leaves Visualizer
 
 - It will answer business requirement 1
+
+    ![leaves_visualizer](assets/images/leaves_visualizer.png)
+
     * Checkbox 1 - Difference between average and variability image
+
+    ![diference_average_variability_image](assets/images/diference_average_variability_image.png)
+
     * Checkbox 2 - Difference between average healthy and average not healthy leaves
+    
+    ![difference_beteween_h&m_leaf](assets/images/difference_beteween_h&m_leaf.png)
+    
     * Checkbox 3 - Image Montage
+
+    ![montage](assets/images/montage.png)
+    
 
 ### Page 3: Mildew Detector
 
@@ -157,15 +175,29 @@ The CRISP-DM model provides a structured approach to managing data mining projec
     * Table with image name and prediction results.
     * Download button to download table.
 
+    ![mildew_dectector](/assets/images/mildew_dectector.png)
+
+    ![mildew_dectector2](/assets/images/mildew_dectector2.png)
+
+    ![mildew_dectector3](/assets/images/mildew_dectector3.png)
+ 
+
 ### Page 4: Hypothesis 
 
 - In the first section of this page, the user can view the project hypotheses, while in the second section, they can find the validation. This page is purely text-based, so there are no user actions to perform.
 
+    ![hypothesis](assets/images/hypothesis.png)
+
 ### Page 5: ML Performance Metrics
 
 - Label Frequencies for Train, Validation and Test Sets
+    ![preformence_metric](assets/images/ml_preformence_metric.png)
+    ![preformence_metric2](assets/images/ml_preformence_metric2.png)
+
 - Model History - Accuracy and Losses
 - Model evaluation result
+
+    ![preformence_metric](assets/images/ml_preformence_metric3.png)
 
 ## Bugs
  
