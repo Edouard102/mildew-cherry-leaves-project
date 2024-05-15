@@ -1,46 +1,17 @@
-# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-## Template Instructions
 
-Welcome,
+# Mildew Disease Detector
 
-This is the Code Institute student template for the Cherry Leaves project option in Predictive Analytics. We have preinstalled all of the tools you need to get started. It's perfectly okay to use this template as the basis for your project submissions. Click the `Use this template` button above to get started.
+![responsicemockup](assets/images/amiresrespond.png)
 
-You can safely delete the Template Instructions section of this README.md file and modify the remaining paragraphs for your own project. Please do read the Template Instructions at least once, though! It contains some important information about the IDE and the extensions we use.
 
-## How to use this repo
+Mildew Disease Detector is an app that can determine whether a cherry leaf is healthy or infected with powdery mildew. The app can predict on new image data whether a given cherry leaf is healthy or infected.
 
-1. Use this template to create your GitHub project repo
+The project aims to create a Predictive Analytics Machine Learning Tool that can quickly and accurately determine whether an uploaded image of a cherry leaf is healthy or infected with Powdery Mildew Disease, which is harmful to plants. The purpose is to assist the client in minimizing losses as a business heavily reliant on cherry tree for revenue.
 
-1. Log into your cloud IDE with your GitHub account.
+The app is designed using an ML model based on supervised learning and single-label binary classification. A binary classifier output is used to predict the outcome of data uploaded to the app.
 
-1. On your Dashboard, click on the New Workspace button
-
-1. Paste in the URL you copied from GitHub earlier
-
-1. Click Create
-
-1. Wait for the workspace to open. This can take a few minutes.
-
-1. Open a new terminal and `pip3 install -r requirements.txt`
-
-1. Open the jupyter_notebooks directory, and click on the notebook you want to open.
-
-1. Click the kernel button and choose Python Environments.
-
-Note that the kernel says Python 3.8.18 as it inherits from the workspace, so it will be Python-3.8.18 as installed by our template. To confirm this, you can use `! python --version` in a notebook code cell.
-
-## Cloud IDE Reminders
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, then you can create a new one with _Regenerate API Key_.
+The App live link is: [mildew-disease-detector](https://mildew-disease-detector-0d7a7c28b9a4.herokuapp.com/)
 
 ## Dataset Content
 
@@ -202,13 +173,16 @@ The CRISP-DM model provides a structured approach to managing data mining projec
 ## Bugs
  
  
-- Push rejected, failed to compile Python app.
-    - Heroku error appears to state that the Python version is not available
+- Push rejected:
 
-    To fix this, log in to the Heroku command line interface (CLI) and use the following command to set the stack to Heroku-20.
-    heroku stack:set heroku-20
+    - failed to compile Python app.
+        Heroku error appears to state that the Python version is not available
 
+        To fix this, I logged in to the Heroku command line interface (CLI) and used the following command to set the stack to Heroku-20.
+    
     - Compiled slug size: 533.2M is too large (max is 500M). 
+
+        To fix this issue, I added some files to be ignored in the .slugignore file.
 
 
  Unfixed Bugs
@@ -217,7 +191,7 @@ The CRISP-DM model provides a structured approach to managing data mining projec
 
 ### Heroku
 
-- The App live link is: `https://YOUR_APP_NAME.herokuapp.com/`
+- The App live link is: [mildew-disease-detector](https://mildew-disease-detector-0d7a7c28b9a4.herokuapp.com/)
 - Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
 - The project was deployed to Heroku using the following steps.
 
