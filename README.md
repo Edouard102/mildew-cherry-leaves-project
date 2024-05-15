@@ -201,10 +201,17 @@ The CRISP-DM model provides a structured approach to managing data mining projec
 
 ## Bugs
  
- Unfi\xed Bugs
+ 
+- Push rejected, failed to compile Python app.
+    - Heroku error appears to state that the Python version is not available
+
+    To fix this, log in to the Heroku command line interface (CLI) and use the following command to set the stack to Heroku-20.
+    heroku stack:set heroku-20
+
+    - Compiled slug size: 533.2M is too large (max is 500M). 
 
 
-- You will need to mention unfixed bugs and why they were unfixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable for consideration, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+ Unfixed Bugs
 
 ## Deployment
 
