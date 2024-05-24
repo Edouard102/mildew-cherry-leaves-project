@@ -173,19 +173,25 @@ The CRISP-DM model provides a structured approach to managing data mining projec
 ## Bugs
  
  
-- Push rejected:
+- Deployment to Heroku
+    - Push rejected:
 
-    - failed to compile Python app.
+        - failed to compile Python app.
         Heroku error appears to state that the Python version is not available
 
         To fix this, I logged in to the Heroku command line interface (CLI) and used the following command to set the stack to Heroku-20.
     
-    - Compiled slug size: 533.2M is too large (max is 500M). 
+        - Compiled slug size: 533.2M is too large (max is 500M). 
 
         To fix this issue, I added some files to be ignored in the .slugignore file.
 
 
- Unfixed Bugs
+ - FileNotFoundError: [Errno 2] No such file or directory: 'inputs/cherry_leaves_dataset/cherry-leaves/test/train'"" pas de file or directory
+
+    - The variable 'label' was used twice for different datasets, which caused the 'no file or directory' error.
+
+    To correct the error, I renamed one variable "label" as "dataset_label
+
 
 ## Deployment
 
