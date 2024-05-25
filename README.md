@@ -85,8 +85,26 @@ To save time in this process, the IT team suggested an ML system that detects in
 ## Project Methodologies
 
  This project was developed using agile methodologies. Used in conjunction with GitHub Issues and Projects, allow us to track project progress in real-time, prioritise features for development.
+ - Link to the [agile methodologies](https://github.com/users/Edouard102/projects/21)
 
 The CRISP-DM model provides a structured approach to managing data mining projects, guiding us during the key phases such as understanding business needs, exploring and preparing data, developing and evaluating models, and finally deploying results in a commercial context, ensuring a robust and reliable end-to-end process.
+
+
+![contex](assets/images/crisp_dm.png) 
+
+- Jupyter Notebooks Workflow Process
+
+    1. Data Collection: 
+
+    In this notebook, the data was fetched into the workspace from Kaggle. Subsequently, it was cleaned to remove any files that were not images, and then divided into training, testing, and validation sets. The distribution was 70% for training, 20% for testing, and 10% for validation. These three new sets were directly saved in the "inputs" folder of the workspace from the Jupyter Notebook.
+
+    2. Data Visualization:
+
+    This notebook contained the initial analysis of image dimensions. You can find this chart on the 'Cherry Leaf Visualiser' page of the dashboard. Additionally, it provided functions to visualize the average and variability of images per label, as well as the difference between average images per label. These visualizations were stored in the outputs folder and are accessible on the dashboard's visualization page. Furthermore, an image montage was generated to display images of a specific label on the dashboard for user viewing.
+
+    3. Modelling and Evaluating: 
+    
+    The third notebook covered the data modeling phase. Initially, image augmentation techniques such as rotation, shear, opacity adjustments, and rescaling were applied to enhance existing images in the dataset. This step aimed to train the model to make more precise predictions on unseen data. Subsequently, a sequential TensorFlow model was developed for the pipeline, and it was trained on the training set. The performance of the model, including evaluation metrics and accuracy, was assessed, visible on the 'ML Performance Metrics' page of the dashboard
 
 ## Dashboard Design (Streamlit App User Interface)
 
